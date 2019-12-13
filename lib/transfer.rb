@@ -1,3 +1,4 @@
 class Transfer
-  # your code here
+  attr_reader
+  attr_accessor
 end
