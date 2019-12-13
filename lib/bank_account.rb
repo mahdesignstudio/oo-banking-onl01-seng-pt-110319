@@ -25,7 +25,9 @@ class BankAccount
     if @balance <= 0 
       false 
     elseif @status == "closed"
-      
+      false
+    else 
+      true 
 
 
 
