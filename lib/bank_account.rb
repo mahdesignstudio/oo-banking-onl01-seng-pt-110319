@@ -13,7 +13,8 @@ class BankAccount
     @@all << self 
   end 
   
-  def deposit 
+  def deposit(amount)
+    
 
 
 
