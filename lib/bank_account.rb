@@ -22,7 +22,8 @@ class BankAccount
   end 
   
   def valid?
-    if @balance <=
+    if @balance <= 0 
+      false 
 
 
 
