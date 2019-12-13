@@ -34,11 +34,15 @@ class BankAccount
   def close_account 
     self.status = "closed"
   end 
-  
+def self.all
+    @@all
+end
+end	
+end  
     
   
 
 
 
 
-end
+
