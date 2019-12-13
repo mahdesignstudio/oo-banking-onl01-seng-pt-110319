@@ -24,6 +24,7 @@ class BankAccount
   def valid?
     if @balance <= 0 
       false 
+    elseif 
 
 
 
