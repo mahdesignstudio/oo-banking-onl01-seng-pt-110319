@@ -22,22 +22,18 @@ class BankAccount
   end 
   
   def valid?
-    if @balance <= 0 
-      false 
-    elsif @status == "closed"
+    if @status == "open" && @balance > 0
+      true
+    else
       false
-    else 
-      true 
     end
-  end 
-  
-  def close_account 
-    self.status = "closed"
-  end 
-def self.all
-    @@all
+  end
+
+  def close_account
+    @status = "closed"
+  end
+
 end
-end	
   
     
   
