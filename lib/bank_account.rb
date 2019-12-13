@@ -12,6 +12,8 @@ class BankAccount
     @status = "open"
     @@all << self 
   end 
+  
+  def deposit 
 
 
 
